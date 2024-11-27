@@ -1,0 +1,27 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; /* Fondo color crema */
+    margin: 0;
+    padding: 0;
+}
+
+.caja1, .caja2 {
+    background-color: #ffffff;
+    border: 2px solid #000; /* Bordes negros */
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.caja1::before, .caja2::before {
+    content: "Sección de información personalizada"; /* Texto personalizado */
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    background-color: #fffdd0;
+    padding: 2px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
